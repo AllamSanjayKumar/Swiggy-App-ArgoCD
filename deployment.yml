@@ -17,7 +17,7 @@ spec:
       terminationGracePeriodSeconds: 30
       containers:
       - name: swiggy-app
-        image: sanjay1014/swiggy-app:20250514141042
+        image: IMAGE_PLACEHOLDER
         imagePullPolicy: "Always"
         ports:
         - containerPort: 3000
